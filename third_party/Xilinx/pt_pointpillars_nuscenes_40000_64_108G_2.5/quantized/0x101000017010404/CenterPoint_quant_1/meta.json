@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "CenterPoint_quant_1.xmodel",
+    "kernel": [
+        "subgraph_CenterPoint_quant__CenterPoint_quant_CenterHead_quant_pts_bbox_head__ConvModule_shared_conv__Conv2d_conv__input_117"
+    ],
+    "target": "DPUCZDX8G_ISA1_B1600_0101000017010404"
+}

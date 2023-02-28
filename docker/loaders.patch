@@ -1,0 +1,7 @@
+126,127d125
+<                 elif attr_count == 1:
+<                     attribute_name = attribute_map[attr_tokens[0]]
+129c127
+<                     raise Exception('Error: GT annotations must not have more than one attribute!')
+---
+>                     attribute_name = attribute_map[attr_tokens[0]]

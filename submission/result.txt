@@ -1,0 +1,18 @@
+Team name: Team_T-T
+Processing time: 714ms
+  1. Preprosess:                   69ms
+  2. 1st part of of PointPillars:  33ms
+  3. Middleprocess:               218ms
+  4. 2nd part of of PointPillars: 352ms
+  5. Postprocess:                  41ms
+Recognition performance: mAP=0.6482 (using the quantized model)
+Network model: PointPillars(CenterHead)
+Platform: Xilinx Kria KV260 (SK-KV260-G)
+Implementation approach:
+  1. Preprosess:                  ARM Cortex-A53
+  2. 1st part of of PointPillars: DPU
+  3. Middleprocess:               ARM Cortex-A53
+  4. 2nd part of of PointPillars: DPU
+  5. Postprocess:                 ARM Cortex-A53 + VexRiscv
+RISC-V processing potion: Run a part of the postprocess
+Confirmation of consent for open source license grant: I Agree

@@ -16,7 +16,8 @@
 
 ## Run PointPillars on KV260
 
-Burn your SD card with our ~~snapshot.img~~ (coming soon) using the `dd` command then execute the following commands:
+Burn your SD card with our [snapshot.img](https://1drv.ms/u/s!AlYlwqtjkSOsgQkHPEtQd3fUHnmO?e=I5fba7)
+using the `dd` command then execute the following commands:
 
 ```Shell
 $ sudo xmutil unloadapp # in sd.img, the password is "petalinux".
@@ -110,7 +111,7 @@ we don't upload all of them.
 Instead, we upload our `.wic` file and application files.
 You should be able to set up the same environment as ours by following the steps below:
 
-1. Download the `petalinux-sdimage.wic` from ~~here~~ (coming soon)
+1. Download the `petalinux-sdimage.wic` from [here](https://1drv.ms/u/s!AlYlwqtjkSOsgQgxqJxun581_CJn?e=IdoKRd)
 2. Burn your SD card with the above `.wic` using balenaEtcher on the host (e.g. Linux, macOS)
 3. Set up Git LFS in this repository
 4. Send `kv260/hardware/riscv_dpu_test` into KV260
